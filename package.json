@@ -1,0 +1,14 @@
+{
+  "name": "nodebb-plugin-bboj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azurity",
+  "license": "ISC",
+  "nbbpm": {
+    "compatibility": "^1.11.0"
+  }
+}
