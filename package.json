@@ -1,13 +1,21 @@
 {
   "name": "nodebb-plugin-bboj",
   "version": "1.0.0",
-  "description": "",
+  "description": "bboj的辅助插件",
   "main": "lib.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "azurity",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azurity/nodebb-plugin-bboj.git"
+  },
+  "author": {
+    "name": "azurity",
+    "email": "784227594@qq.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/azurity/nodebb-plugin-bboj",
   "nbbpm": {
     "compatibility": "^1.11.0"
   }
