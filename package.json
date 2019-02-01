@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-bboj",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "bboj的辅助插件",
   "main": "lib.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/azurity/nodebb-plugin-bboj",
   "nbbpm": {
     "compatibility": "^1.11.0"
+  },
+  "dependencies": {
+    "express-http-proxy": "^1.5.1"
   }
 }

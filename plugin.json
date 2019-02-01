@@ -3,6 +3,10 @@
     "library": "lib.js",
     "hooks": [
         {
+            "hook": "static:app.load",
+            "method": "init"
+        },
+        {
             "hook": "filter:parse.post",
             "method": "parsePost"
         }

@@ -1,6 +1,10 @@
 const Group = require.main.require('./src/groups')
+const proxy = require('express-http-proxy')
 
 const bbojInterface = {
+    init(data, callback) {
+        data.router.use('/oj', proxy('localhost:3000'))
+    },
     parsePost(data, callback) {
         Group.get('problem-makers', { uid: data.postData.uid }, (err, result) => {
             data.postData.content = applyOJ(data.postData.content, !err && !!result && result.isMember)
